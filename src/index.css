@@ -257,8 +257,26 @@ Single Movie
 .single-movie p {
   max-width: 35em;
   font-size: 1.2rem;
-  margin-top: 1.5rem;
-  line-height: 1.8;
+  margin-top: 1rem;
+  line-height: 1.5;
+}
+.single-movie-info span {
+  font-size: 2rem;
+  color: var(--clr-grey-2);
+}
+.single-movie-crew {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1rem
+}
+
+.single-movie-crew p {
+  margin: 0;
+}
+
+.single-movie-crew span {
+  font-size: 1.2rem;
+  font-weight: bold;
 }
 .btn {
   text-transform: capitalize;
